@@ -4,8 +4,7 @@ Thumbs.db
 
 # Editors / IDEs
 .idea/
-.vscode/*
-!.vscode/settings.json
+.vscode/
 
 # Node (if a lab ever adds dependencies)
 node_modules/
