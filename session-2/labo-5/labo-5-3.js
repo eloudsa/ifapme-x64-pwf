@@ -1,0 +1,8 @@
+console.log(1 + 2 + "3")
+console.log("1" + 2 + 3)
+console.log("5" * "2")
+console.log(Number(""))
+console.log(Number("12px"))
+console.log(Number(null))
+console.log(Number(undefined))
+console.log(Boolean("false"))

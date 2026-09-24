@@ -1,0 +1,5 @@
+console.log(typeof typeof 42)
+console.log(typeof `${42}`)
+console.log(typeof 42 + " ans")
+console.log(typeof typeof 42)
+console.log(typeof notDeclared)
