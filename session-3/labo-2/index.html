@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculateur de devis</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <h1>Calculateur de devis</h1>
+  <p class="muted">Studio Pixel · tarif journalier : 450 € HTVA</p>
+
+  <div class="card form">
+    <label>Client <input id="client" type="text" placeholder="Nom du client"></label>
+    <label>Jours de design <input id="design-days" type="number" value="2"></label>
+    <label>Jours de développement <input id="dev-days" type="number" value="3"></label>
+    <button id="compute">Calculer</button>
+  </div>
+
+  <p class="result">Total : <strong id="days-total">?</strong> jours</p>
+  <p id="price"></p>
+  <p id="debug" class="muted"></p>
+</body>
+</html>

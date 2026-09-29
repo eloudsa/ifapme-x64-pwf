@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>La boutique du studio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <h1>La boutique du studio</h1>
+
+  <section class="card">
+    <h2>Affiche « Bauhaus »</h2>
+    <p class="muted">Impression A3 · 12 €</p>
+    <button id="like">J'aime</button>
+    <button id="unlike">Je n'aime plus</button>
+    <p id="likes">Likes : 0</p>
+  </section>
+
+  <section class="card">
+    <h2>Mon panier</h2>
+    <button id="add">Ajouter une affiche</button>
+    <button id="remove">Retirer une affiche</button>
+    <p id="count">Articles : 0</p>
+    <p id="total">Total : 0 €</p>
+  </section>
+
+  <section class="card">
+    <h2>Offre 3 pour 2</h2>
+    <input id="qty" type="number" placeholder="Nombre d'affiches">
+    <button id="compute">Calculer</button>
+    <p id="offer" class="muted">Une affiche offerte par lot de 3</p>
+    <p id="price"></p>
+  </section>
+</body>
+</html>
