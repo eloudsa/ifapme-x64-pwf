@@ -4,13 +4,17 @@ Ce dépôt contient les labos du cours **Programmation Web Frontend**, destiné 
 
 ## Organisation
 
-Les labos sont regroupés par session de formation :
+Les labos sont regroupés par session de formation. Le dossier d'une session est ajouté au dépôt au moment où elle est vue en cours.
 
 ```
+slides/                    les slides de chaque session (PDF)
+labos/                     les énoncés des labos à partir de la session 3 (PDF)
 session-1/                 sessions 1 et 2 : JavaScript dans la console
   labo-2/
     labo-2-1.js
     ...
+session-2/
+  ...
 session-3/                 à partir de la session 3 : JavaScript dans la page
   labo-1/
     index.html             la page (fournie)
@@ -37,6 +41,17 @@ git pull
 ```
 
 Copiez ensuite le dossier du labo dans votre propre dossier de travail et travaillez sur cette copie : votre clone reste identique au dépôt, et le prochain `git pull` ne sera pas bloqué par vos modifications.
+
+### Si `git pull` échoue
+
+Si `git pull` affiche une erreur (modifications locales, historiques divergents…), remettez votre clone à l'identique du dépôt :
+
+```sh
+git fetch
+git reset --hard origin/main
+```
+
+Attention : cette commande efface toutes les modifications faites dans le clone. C'est pourquoi il faut travailler sur une copie du labo, en dehors du clone.
 
 ## Sessions 3 et suivantes : une page avec Live Server
 
