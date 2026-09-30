@@ -7,26 +7,27 @@ Ce dépôt contient les labos du cours **Programmation Web Frontend**, destiné 
 Les labos sont regroupés par session de formation. Le dossier d'une session est ajouté au dépôt au moment où elle est vue en cours.
 
 ```
-slides/                    les slides de chaque session (PDF)
-labos/                     les énoncés des labos à partir de la session 3 (PDF)
-session-1/                 sessions 1 et 2 : JavaScript dans la console
-  labo-2/
-    labo-2-1.js
+slides/                      les slides de chaque session (PDF)
+labos/                       les énoncés des labos à partir de la session 3 (PDF)
+sessions/                    le code des labos
+  session-1/                 sessions 1 et 2 : JavaScript dans la console
+    labo-2/
+      labo-2-1.js
+      ...
+  session-2/
     ...
-session-2/
-  ...
-session-3/                 à partir de la session 3 : JavaScript dans la page
-  labo-1/
-    index.html             la page (fournie)
-    style.css              sa mise en forme (fournie)
-    main.js                les consignes, en commentaires : c'est ici que vous codez
-    solutions/             ajouté après la session
-      labo-1-1.js
-      labo-1-2.js
-      labo-1-3.js
+  session-3/                 à partir de la session 3 : JavaScript dans la page
+    labo-1/
+      index.html             la page (fournie)
+      style.css              sa mise en forme (fournie)
+      main.js                les consignes, en commentaires : c'est ici que vous codez
+      solutions/             ajouté après la session
+        labo-1-1.js
+        labo-1-2.js
+        labo-1-3.js
 ```
 
-- Un dossier `session-N/` par session de formation.
+- Un dossier `sessions/session-N/` par session de formation.
 - Un dossier `labo-X/` par labo vu durant la session.
 - Un fichier `labo-X-Y.js` par niveau (ou exercice) du labo.
 
@@ -67,7 +68,7 @@ Pour tester une solution, copiez le contenu de `solutions/labo-X-Y.js` dans `mai
 Avec [Node.js](https://nodejs.org/) installé, depuis la racine du projet :
 
 ```sh
-node session-2/labo-1/labo-1-1.js
+node sessions/session-2/labo-1/labo-1-1.js
 ```
 
 Dans VS Code, l'extension **Code Runner** permet aussi d'exécuter le fichier ouvert directement dans le panneau de sortie.
