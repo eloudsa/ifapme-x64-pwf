@@ -7,6 +7,7 @@ Ce dépôt contient les labos du cours **Programmation Web Frontend**, destiné 
 Les labos sont regroupés par session de formation. Le dossier d'une session est ajouté au dépôt au moment où elle est vue en cours.
 
 ```
+slides/                      les slides de chaque session (PDF)
 labos/
   session-1/                 sessions 1 et 2 : JavaScript dans la console
     ..._Session_1_labos.pdf  les énoncés des labos de la session
@@ -26,6 +27,7 @@ labos/
         labo-1-3.js
 ```
 
+- Le dossier `slides/` contient un PDF de slides par session.
 - Un dossier `labos/session-N/` par session de formation, avec le PDF des énoncés de ses labos.
 - Un dossier `labo-X/` par labo vu durant la session.
 - Un fichier `labo-X-Y.js` par niveau (ou exercice) du labo.
