@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Créer un compte</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <h1>Créer un compte</h1>
+
+  <section class="card">
+    <h2>Mot de passe</h2>
+    <input id="password" type="password" placeholder="8 caractères minimum">
+    <button id="check">Vérifier</button>
+    <div class="meter"><div id="bar" class="bar"></div></div>
+    <p id="strength" class="badge">En attente</p>
+  </section>
+
+  <section class="card">
+    <h2>Inscription</h2>
+    <input id="age" type="number" placeholder="Votre âge">
+    <label><input id="terms" type="checkbox"> J'accepte les conditions</label>
+    <button id="signup">S'inscrire</button>
+    <p id="message"></p>
+  </section>
+</body>
+</html>

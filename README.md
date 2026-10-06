@@ -7,10 +7,9 @@ Ce dépôt contient les labos du cours **Programmation Web Frontend**, destiné 
 Les labos sont regroupés par session de formation. Le dossier d'une session est ajouté au dépôt au moment où elle est vue en cours.
 
 ```
-slides/                      les slides de chaque session (PDF)
-labos/                       les énoncés des labos à partir de la session 3 (PDF)
-sessions/                    le code des labos
+labos/
   session-1/                 sessions 1 et 2 : JavaScript dans la console
+    ..._Session_1_labos.pdf  les énoncés des labos de la session
     labo-2/
       labo-2-1.js
       ...
@@ -27,7 +26,7 @@ sessions/                    le code des labos
         labo-1-3.js
 ```
 
-- Un dossier `sessions/session-N/` par session de formation.
+- Un dossier `labos/session-N/` par session de formation, avec le PDF des énoncés de ses labos.
 - Un dossier `labo-X/` par labo vu durant la session.
 - Un fichier `labo-X-Y.js` par niveau (ou exercice) du labo.
 
@@ -68,7 +67,7 @@ Pour tester une solution, copiez le contenu de `solutions/labo-X-Y.js` dans `mai
 Avec [Node.js](https://nodejs.org/) installé, depuis la racine du projet :
 
 ```sh
-node sessions/session-2/labo-1/labo-1-1.js
+node labos/session-2/labo-1/labo-1-1.js
 ```
 
 Dans VS Code, l'extension **Code Runner** permet aussi d'exécuter le fichier ouvert directement dans le panneau de sortie.
