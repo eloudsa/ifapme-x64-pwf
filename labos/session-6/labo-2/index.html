@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Suivi du projet</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <h1>Suivi du projet</h1>
+  <p class="muted">Refonte du site de la boulangerie</p>
+
+  <section class="card">
+    <h2>Heures passées</h2>
+    <p id="hours-total" class="muted">Pas encore calculé</p>
+  </section>
+
+  <section class="card">
+    <h2>Tâches</h2>
+    <label class="task"><input id="t1" class="task-check" type="checkbox"> Moodboard</label>
+    <label class="task"><input id="t2" class="task-check" type="checkbox"> Wireframes</label>
+    <label class="task"><input id="t3" class="task-check" type="checkbox"> Maquettes Figma</label>
+    <label class="task"><input id="t4" class="task-check" type="checkbox"> Prototype</label>
+    <label class="task"><input id="t5" class="task-check" type="checkbox"> Tests utilisateurs</label>
+    <button id="progress">Faire le point</button>
+    <p id="progress-text" class="muted">Cochez vos tâches, puis faites le point</p>
+  </section>
+
+  <section class="card">
+    <h2>Achats (budget 60 €)</h2>
+    <ul id="purchases"></ul>
+    <p id="budget-text" class="muted"></p>
+  </section>
+</body>
+</html>

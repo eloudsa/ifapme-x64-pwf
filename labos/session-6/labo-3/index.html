@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Grilles</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <h1>Grilles</h1>
+
+  <section class="card">
+    <h2>La grille</h2>
+    <div id="grid"></div>
+  </section>
+
+  <section class="card">
+    <h2>Les variantes du T-shirt</h2>
+    <p id="variants-count" class="muted"></p>
+    <ul id="variants"></ul>
+  </section>
+
+  <section class="card">
+    <h2>Le damier</h2>
+    <div class="controls">
+      <label for="size">Taille</label>
+      <input id="size" type="number" value="6">
+      <button id="draw">Dessiner</button>
+    </div>
+    <div id="board" class="board"></div>
+  </section>
+</body>
+</html>

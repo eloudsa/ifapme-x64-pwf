@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Nuancier</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <h1>Nuancier</h1>
+  <p class="muted">Des nuances générées par une boucle</p>
+
+  <div class="controls">
+    <label for="hue">Teinte (0 à 360)</label>
+    <input id="hue" type="number" value="220">
+    <button id="generate">Générer</button>
+  </div>
+  <div id="swatches" class="swatches"></div>
+
+  <h2>Ma palette</h2>
+  <p id="count" class="muted"></p>
+  <ul id="palette" class="palette"></ul>
+</body>
+</html>
