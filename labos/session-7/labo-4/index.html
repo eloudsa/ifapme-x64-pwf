@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Générateur d'avatar</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <h1>Générateur d'avatar</h1>
+
+  <article class="card identity">
+    <div id="avatar" class="avatar">?</div>
+    <h2 id="display-name">Votre nom</h2>
+  </article>
+
+  <label for="fullname">Nom complet</label>
+  <input id="fullname" type="text" placeholder="Prénom Nom">
+  <button id="shuffle">Nouvelle couleur</button>
+
+  <label for="size">Taille de l'avatar (px)</label>
+  <input id="size" type="text" placeholder="96">
+  <p id="size-message" class="message"></p>
+</body>
+</html>

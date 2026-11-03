@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Boîte à outils du designer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <h1>Boîte à outils du designer</h1>
+
+  <div class="tools">
+    <section class="card">
+      <h2>px vers rem</h2>
+      <input id="px" type="text" inputmode="numeric" placeholder="Taille en px">
+      <p id="rem" class="result">—</p>
+      <ul id="sizes" class="sizes"></ul>
+    </section>
+
+    <section class="card">
+      <h2>Slug d'URL</h2>
+      <input id="title" type="text" placeholder="Titre du projet">
+      <p id="slug" class="result">—</p>
+    </section>
+
+    <section class="card">
+      <h2>Contraste</h2>
+      <input id="ratio" type="text" inputmode="decimal" placeholder="Ratio, ex. 4.5">
+      <p><label><input id="large" type="checkbox"> Texte large</label></p>
+      <p id="level" class="badge">—</p>
+    </section>
+  </div>
+</body>
+</html>

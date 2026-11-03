@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>La petite boutique</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <h1>La petite boutique</h1>
+
+  <div class="products">
+    <article class="card">
+      <h2>Poster A3</h2>
+      <p class="muted">20 € HTVA</p>
+      <button id="poster">Choisir</button>
+    </article>
+    <article class="card">
+      <h2>Carnet</h2>
+      <p class="muted">12 € HTVA</p>
+      <button id="notebook">Choisir</button>
+    </article>
+    <article class="card">
+      <h2>Tote bag</h2>
+      <p class="muted">15 € HTVA</p>
+      <button id="bag">Choisir</button>
+    </article>
+  </div>
+  <p id="result" class="result">Choisissez un produit</p>
+
+  <section class="card">
+    <h2>Calculateur</h2>
+    <input id="amount" type="text" inputmode="decimal" placeholder="Montant HTVA">
+    <button id="calc">Calculer</button>
+    <p id="calc-result" class="muted"></p>
+  </section>
+
+  <section class="card">
+    <h2>Panier</h2>
+    <p id="cart">Panier vide</p>
+    <p id="shipping" class="muted"></p>
+  </section>
+</body>
+</html>

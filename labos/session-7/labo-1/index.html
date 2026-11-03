@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mon profil</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <h1>Mon profil</h1>
+  <p class="muted">Ce que vous tapez apparaît en direct sur la carte.</p>
+
+  <label for="name">Nom affiché</label>
+  <input id="name" type="text" placeholder="Votre nom">
+  <p id="count" class="count">0 caractère</p>
+
+  <label for="email">E-mail</label>
+  <input id="email" type="text" placeholder="vous@exemple.be">
+  <p id="email-message" class="message"></p>
+
+  <article class="card profile">
+    <h2 id="preview">Votre nom</h2>
+    <p id="email-preview" class="muted">vous@exemple.be</p>
+  </article>
+</body>
+</html>
