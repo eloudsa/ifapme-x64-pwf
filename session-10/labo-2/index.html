@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>La fiche auteur</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <h1>La fiche auteur</h1>
+  <p class="muted">Les auteurs du blog du studio, demandés au serveur</p>
+
+  <div class="field">
+    <label>Auteur n° <input id="userId" type="number" min="1" max="10" value="1"></label>
+    <button id="load">Afficher</button>
+  </div>
+
+  <article class="card author">
+    <h2 id="name">…</h2>
+    <p id="meta" class="muted"></p>
+    <p id="company"></p>
+  </article>
+
+  <section class="card">
+    <h2>Ses tâches</h2>
+    <p id="todo-count" class="muted"></p>
+    <ul id="todos" class="todos"></ul>
+  </section>
+</body>
+</html>

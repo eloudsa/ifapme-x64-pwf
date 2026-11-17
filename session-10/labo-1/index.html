@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Explorer l'API</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <h1>Explorer l'API</h1>
+  <p class="muted">Serveur d'entraînement : jsonplaceholder.typicode.com</p>
+
+  <section class="card">
+    <h2>Lire une réponse</h2>
+    <p>/posts : <span id="posts-count" class="value">…</span></p>
+    <p>Clés d'un article : <span id="posts-keys" class="value">…</span></p>
+    <p>/posts/7 : <span id="type-post" class="value">…</span></p>
+    <p>/users/3 : <span id="type-user" class="value">…</span></p>
+    <p>/users : <span id="type-users" class="value">…</span></p>
+  </section>
+
+  <section class="card">
+    <h2>Préciser la demande</h2>
+    <p>Articles de l'utilisateur 3 : <span id="user-posts" class="value">…</span></p>
+    <p>Commentaires de l'article 7 : <span id="post-comments" class="value">…</span></p>
+    <p>Tâches de l'utilisateur 5 : <span id="user-todos" class="value">…</span></p>
+    <p>Photos de l'album 2 : <span id="album-photos" class="value">…</span></p>
+    <p>Tâches terminées de l'utilisateur 5 : <span id="user-done" class="value">…</span></p>
+  </section>
+
+  <section class="card">
+    <h2>Statut et fiche auteur</h2>
+    <p>/posts/7 : <span id="status-found" class="value">…</span></p>
+    <p>/posts/999 : <span id="status-missing" class="value">…</span></p>
+    <p>Clés d'un utilisateur : <span id="user-keys" class="value">…</span></p>
+    <p>Fiche auteur : <span id="author" class="value">…</span></p>
+  </section>
+</body>
+</html>

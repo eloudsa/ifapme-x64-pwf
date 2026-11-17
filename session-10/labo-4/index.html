@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Le blog du studio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <h1>Le blog du studio</h1>
+  <p id="status" class="muted">…</p>
+
+  <nav id="authors" class="authors"></nav>
+
+  <section id="posts" class="grid"></section>
+
+  <section class="panel">
+    <h2>Commentaires</h2>
+    <p id="comments-title" class="muted">Cliquez sur un article pour lire ses commentaires.</p>
+    <ul id="comments" class="comments"></ul>
+  </section>
+
+  <section class="panel publish">
+    <h2>Publier un article</h2>
+    <input id="post-title" placeholder="Titre">
+    <input id="post-body" placeholder="Texte">
+    <button id="publish">Publier</button>
+  </section>
+</body>
+</html>
